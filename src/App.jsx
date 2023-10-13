@@ -9,7 +9,7 @@ import Navigation from './components/Navigation';
 import Portfolio from './components/Portfolio';
 
 function App() {
-  const [selectedSection, setSelectedSection] = useState('aboutMe'); // Set the initial section to "aboutMe"
+  const [selectedSection, setSelectedSection] = useState('aboutMe'); 
 
   const handleNavigationClick = (section) => {
     setSelectedSection(section);
